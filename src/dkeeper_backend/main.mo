@@ -1,7 +1,7 @@
 import List "mo:base/List";
 import Debug "mo:base/Debug";
 
-actor Dkeeper {
+actor DKeeper {
   public type Note = {
     title: Text;
     content: Text

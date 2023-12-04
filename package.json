@@ -1,5 +1,5 @@
 {
-  "name": "Dkeeper_assets",
+  "name": "dkeeper_assets",
   "version": "0.1.0",
   "description": "Internet Computer starter application",
   "keywords": [
@@ -47,6 +47,7 @@
   "dependencies": {
     "@material-ui/core": "4.6.1",
     "@material-ui/icons": "4.5.1",
+    "mdb-react-ui-kit": "^7.0.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-scripts": "5.0.0",
