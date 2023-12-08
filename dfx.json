@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "dfinityguard_notes_backend": {
+      "main": "src/dfinityguard_notes_backend/main.mo",
+      "type": "motoko"
+    },
+    "dfinityguard_notes_frontend": {
+      "dependencies": [
+        "dfinityguard_notes_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/dfinityguard_notes_frontend/src/index.html"
+      },
+      "source": [
+        "src/dfinityguard_notes_frontend/assets",
+        "dist/dfinityguard_notes_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
